@@ -1,1 +1,62 @@
+.s1{margin: 1.2rem;
+    
+    height: 19rem;
+   
+    text-align: center;
+    color: grey;
+    border-radius: 25% / 60%;
+
+    background-image: linear-gradient(to right bottom,rgba(126,213,111,0.8),rgba(40,180,131,0.8)), url(ieee.png);
+    
+    
+    
+}
+.s1:hover{
+    
+    background-image: linear-gradient(to right,#7ed56f,#55c57a);
+}
+.s2
+{
+    margin: 1.2rem;
+    background-image: linear-gradient(to right bottom,rgba(126,213,111,0.8),rgba(40,180,131,0.8)), url(jiit.png);
+    
+    
+    background-color:#55c57a;
+    height: 19rem;
+    color: grey;
+    text-align: center;
+    border-radius: 10% / 50%;
+
+    
+
+    
+}
+.s2:hover{
+    background-image: linear-gradient(to right,#7ed56f 100%,#55c57a);
+}
+.s3
+{
+    margin: 1.2rem;
+    background-image: linear-gradient(to right bottom,rgba(126,213,111,0.8),rgba(40,180,131,0.8)), url(ucr.png);
+    
+    
+    background-color:#333;
+    height: rem;
+    color: grey;
+    text-align: center;
+    border-radius: 10% / 50%;
+   
+    
+}
+.s3:hover{
+    
+    background-image: linear-gradient(to right,#7ed56f,#55c57a);
+}
+.logo{
+    border-radius: 100%;
+}
+.mention
+{
+    font-size: 1.5rem;
+}
 
