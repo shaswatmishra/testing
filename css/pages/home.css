@@ -1,1 +1,9 @@
-
+.section-about
+{
+    background-color:#f7f7f7;
+    padding: 20rem 0;
+    margin-top: -25vh;
+}
+.btn-design{
+    text-align: center;
+}
