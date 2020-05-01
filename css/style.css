@@ -1,1 +1,29 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: 
+
+*/
+@import "abstracts/function.css";
+@import "abstract/mixins.css";
+
+
+
+@import "base/animation.css";
+@import "base/typo.css";
+@import "base/main.css";
+@import "base/utilites.css";
+
+
+@import "layout/header.css";
+@import "layout/grid.css";
+@import "pages/home.css";
+
+
+html{
+    font-size: 62.5%;}
+
+  
 
