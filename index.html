@@ -101,9 +101,13 @@ border-right:1px solid white;
   display: none;
 
 }
-@media screen and (max-width: 600px) {
+.navcontent a#img {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
   .navcontent a:not(.icon){display: none;}
-  .navcontent .mar{display: none;}
+
   .navcontent .aimg{display: none;}
   .navcontent a.icon {
     float: right;
@@ -115,15 +119,21 @@ border-right:1px solid white;
   .navcontent a#img {
     float: left;
     display: block;
+    position: absolute;
     border: none;
     width:125px;
     padding:20px 18px;
+    z-index:+1;
 
   }
+  .navcontent .mar{
+    float: right;
+
+    }
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .navcontent.responsive {position: relative;}
   .navcontent.responsive a.icon {
     position: absolute;
@@ -159,7 +169,7 @@ border-right:1px solid white;
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-          <a href="#" class="icon" id="img"><img src="sem2.png" width="125px" height="35" alt="sem2"></a>
+          <a href="#" id="img"><img src="sem2.png" width="125px" height="35" alt="sem2"></a>
 
 
          <marquee class="mar"><p>New Update</p></marquee>
