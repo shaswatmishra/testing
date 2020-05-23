@@ -1,229 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
-        <link rel="stylesheet" href="css/icon-font.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-
-
-
-    <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
         
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="flaticon.css">
+
+
+        
+        <title>Jiitvoice &mdash;Every voice matter</title>
     </head>
     <body>
-
-    
-         <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-    <script>
-      function onSignIn(googleUser) {
-        // Useful data for your client-side scripts:
-        var profile = googleUser.getBasicProfile();
-        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
-        console.log('Full Name: ' + profile.getName());
-        console.log('Given Name: ' + profile.getGivenName());
-        console.log('Family Name: ' + profile.getFamilyName());
-        console.log("Image URL: " + profile.getImageUrl());
-        console.log("Email: " + profile.getEmail());
-
-        // The ID token you need to pass to your backend:
-        var id_token = googleUser.getAuthResponse().id_token;
-        console.log("ID Token: " + id_token);
-      }
-    </script>
-
-        <div class="navcontent" id="mytopnav" >
-          <a href="#home" class="active" id="hom">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-  <a href="#" id="img"><img src="sem2.png" width="125px" height="35" alt="sem2"></a>
-
-
-
-         <marquee class="mar"><p>New Update</p></marquee>
-         <span class="aimg"><img src="announcement.png" width="45px" height="35" alt="announcement"></span>
-         </div>
-
-
-
-
-        <header class="header">
-            <div class="text-box">
-                <h1 class="heading-primary">
-                    <span class="heading-primary-main">sEMESTER 2</span>
-
-                    <span class="heading-primary-sub">GET ALL YOUR STUFF</span>
-                </h1>
-            </div>
-        </header>
-        <main>
-            <section class="section-about">
-                <div class="u-center-text u-bottom-big">
-                    <h2 class="heading-secondary">
-                        Get your Study materials here
-                    </h2>
-                </div>
-                <div class="btn-design">
-                    <a href="#" class="btn btn-green">sdf</a>
-                    <a href="#" class="btn btn-green">edd</a>
-                    <a href="#" class="btn btn-green">Maths</a>
-                   <a href="#" class="btn btn-green">Physics</a>
-
-
-
-                   <a href="#" class="btn btn-green">physics lab</a>
-                   <a href="#" class="btn btn-green">Workshop</a>
-                   <a href="#" class="btn btn-green">eletrical science</a>
-                   <a href="#" class="btn btn-green">electrical science lab</a>
-
-                </div>
-
-
-
-            <section class="section-support">
-                <div class="u-center-text u-bottom-big down">
-                    <h2 class="heading-secondary">
-                        Support
-                    </h2>
-                </div>
-
-
-                <div class="row">
-                    <div class=" col-lg-4 col-sm-6">
-                        <div class="s1">
-                            <h2 class="jiit">
-                                IEEE
-                            </h2>
-                            <img class="logo" src="ieee.png" height="80rem" width="80rem" border-radius="100%" >
-                            <p style="color:white;" class="mention">
-                                follow it on!
-                            </p>
-
-                            <a class="footer-link iee" href="https://www.instagram.com/ieeesbjiit/"><i class="fab fa-instagram fa-4x"></i></a>
-                                  <a class="footer-link iee" href="https://www.facebook.com/ieeesbjiit/"><i class="fab fa-facebook fa-4x"></i></a>
-
-
-                        </div>
-                    </div>
-
-
-                    <div class=" col-lg-4 col-sm-6">
-                        <div class="s2">
-                             <div class="comp">
-                        <h2 class="jiit">
-                            JIIT Comapnion
-                        </h2>
-                        <img class="logo" src="jiit.png" height="80rem" width="80rem" border-radius="100%" >
-                            <p style="color:white;" class="mention">
-
-                            Get college notifications and know your attendance
-                        </p>
-                        <button type="button" class="btn btn-dark btn-lg"><a style="color:white;" href="https://apps.apple.com/in/app/jiit-companion/id1498321159"><i class="fab fa-apple"></i>Download</a></button>
-                        <button type="button" class="btn btn-outline-light btn-lg"><a style="color:white;" href="https://play.google.com/store/apps/details?id=me.sunnydhama.jiitcompanion"><i class="fab fa-google-play"></i>Download</a></button>
-
-                        </div>
-                    </div>
-                </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="s3">
-                           <h2>
-                            <h2 class="jiit">
-                                µCR
-                            </h2>
-                            <img class="logo" src="ucr.png" height="80rem" width="80rem" border-radius="100%" >
-                            <p style="color:white;" class="mention">
-
-                               Follow it on!
-                            </p>
-                            <a class="footer-link" href="https://www.instagram.com/ucrjiit/"><i class="fab fa-instagram fa-4x"></i></a>
-                            <a class="footer-link" href="https://www.facebook.com/uCR.jiit/"><i class="fab fa-facebook fa-4x"></i></a>
-
-                           </h2>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-            </section>
-
-        </main>
-
-
-
-
-
-
-
-
-
-
-            <div class="footer">
-                <div class="row abc">
-                    <div class=" col col-lg-6 col-sm-4">
-                    <div class="contact">
-                        <div class="container-fluid">
-
-
-                            <a class="footer-link" href="https://www.linkedin.com/in/shaswat-mishra-5b7839139"><i class="fab fa-linkedin fa-4x"></i></a>
-                           <a class="footer-link" href="https://www.instagram.com/shaswat.mishra_/"><i class="fab fa-instagram fa-4x"></i></a>
-                           <a class="footer-link" href="https://www.facebook.com/shaswat18mishra"><i class="fab fa-facebook fa-4x"></i></a>
-                           <a class="footer-link" href="https://twitter.com/Shaswat18Mishra"><i class="fab fa-twitter fa-4x"></i></a>
-
-                           <a class="footer-link" href="https://api.whatsapp.com/send?phone=+917525046151."><i class="fab fa-whatsapp fa-4x"></i></a>
-
-                          </div>
-
-                        </div>
-
-                    </div>
-                    <div class=" col col-lg-6  col-sm-4 side">
-                   <div class="intro">
-
-
-                        Developer:
-
-                       <a class="shaswat" href="https://www.shaswatmishra.tech"> Shaswat Mishra -</a>
-
-                        Dilip Singhal
-                        <br>
-                        Content: semester.tech team
-                    </div>
+            <div class="containe">
+              
+              <div class="footer top">
+              
+                  
+                <div class="contact">
+                   <div class="container-fluid">
+                       <h1 class="follw">SDF</h1>
+                       <a><button><h2>Home</h2></button></a>
+                       
+                      
+                       
+                      
+                     </div>
+                       
                    </div>
 
+             
+           </div>
+             
 
+
+
+            
+           
+
+
+
+          
+            <div class="mor">
+              
+              <div class="row  ">
+                <div class="col col-lg-3 ">
+                  <div class="adm">
+                  <h2 class="head">Tut 5</h2>
+                  
+                 
+                  
+                  
+                  <a href="tut5sdf.pdf"><button>Solution</button></a>
+                </div>
+              </div>
+                <div class="col col-lg-3 ">
+                  <div class="adm k">
+                  <h2 class="head">Tut 6</h2>
+                
+                
+                  <a href="tut6sdf.pdf"><button>Solution</button></a>
+                </div>
+                </div>
+                <div class="col col-lg-3 ">
+                  <div class="adm">
+                    <h2 class="head">Tut 7</h2>
+                    
+                    <a href="tut7sdf.pdf"><button>Solution</button></a>
+                  </div>
+                </div>
+
+      
+
+                <div class="col col-lg-3 xy">
+                  <div class="adm">
+                    <h2 class="head">Tut 9</h2>
+                    
+                  
+                    <a href="tut9sdf.pdf"><button>Solution</button></a>
+                  </div>
+                </div>
+                <div class="col col-lg-3 xy">
+                  <div class="adm">
+                    <h2 class="head">Tut 10</h2>
+                    
+                   
+                    <a href="tut10sdf.pdf"><button>Solution</button></a>
+                  </div>
+                </div>
+                <div class="col col-lg-3 xy">
+                  <div class="adm">
+                    <h2 class="head">Tut 11</h2>
+                    
+                    
+                    <a href="tut11sdf.pdf"><button>Solution</button></a>
+                  </div>
+                </div>
+                <div class="col col-lg-3 xy">
+                  <div class="adm">
+                    <h2 class="head">Tut 12</h2>
+                    
+                   
+                    <a href="s-sdftut12.docx"><button>Solution</button></a>
+                  </div>
+                </div>
+                <div class="col col-lg-3 xy">
+                  <div class="adm">
+                    <h2 class="head">Tut 13</h2>
+                    
+                    <a href="tut13sdf.pdf"><button>Solution</button></a>
+                  </div>
+                </div>
+              
+                <div class="col col-lg-3 xy">
+                  <div class="adm">
+                    <h2 class="head">Tut 11(128)</h2>
+                    
+                   
+                    <a href="tut11sdf128.docx"><button>Solution</button></a>
+                  </div>
+                </div>
+                <div class="col col-lg-3 xy">
+                  <div class="adm">
+                    <h2 class="head">Tut 12(128)</h2>
+                    
+                    
+                    <a href="tut12sdf128.docx"><button>Solution</button></a>
+                  </div>
                 </div>
 
 
 
+
+                <div class="col col-lg-3 xy">
+                  <div class="adm">
+                    <h2 class="head">Assignment Binary tree</h2>
+                    
+                    
+                    <a href="assign10sdfbinary.pdf"><button>Solution</button></a>
+                  </div>
+                </div>
+
+                <div class="col col-lg-3 xy">
+                  <div class="adm">
+                    <h2 class="head">Assignment 128 3Q</h2>
+                    
+                    <a href="q-assignment128.pdf"><button>Question</button></a>
+                    <a href="s-assignment128.docx"><button>Solution</button></a>
+                  </div>
+                </div>
+
+              </div>
             </div>
-            <script>
-            function myFunction() {
-              var x = document.getElementById("mytopnav");
-              if (x.className === "navcontent") {
-                x.className += " responsive";
-              } else {
-                x.className = "navcontent";
-              }
-            }
-            </script>
 
 
 
+          </div>
+            <div class="footer">
+              
+                  
+                   <div class="contact">
+                      <div class="container-fluid">
+                          <h4 class="follow">Any sugestions<br>contact us</h4>
+                          
+                         
+                         <a class="footer-link in" href="#"><i class="fab fa-instagram fa-4x"></i></a>
+                         
+                         <a class="footer-link tw" href="#"><i class="fab fa-whatsapp fa-4x"></i></a> 
+                         
+                        </div>
+                          
+                      </div>
+
+                
+              </div>
+
+
+
+            
+
+
+            
+            
+
+
+          </div>
+
+
+
+
+
+        </div>
     </body>
 </html>
