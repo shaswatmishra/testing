@@ -30,9 +30,12 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+	 overflow-x: hidden; //horizontal
+    overflow-y: scroll; //vertical
+	  max-width: 100%;
 }
 body{
-    
+      max-width: 100%;
  	 overflow-x: hidden; //horizontal
     overflow-y: scroll; //vertical
     font-family: 'open Sans',sans-serif;
